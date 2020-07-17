@@ -1,0 +1,13 @@
+my:
+ greeting: Hello from config server
+ list:
+  value: Tasleem,Palak,Amit
+ map:
+  value: "{Position:'SSE',Company:'ATCS'}"
+
+db:
+ connection: "{Connection:'http://..',username:'demoConfigServerUpdated',password:'demoConfigServer'}"
+ host: 127.0.0.1
+ port: 1200
+
+management.endpoints.web.exposure.include: "*"
